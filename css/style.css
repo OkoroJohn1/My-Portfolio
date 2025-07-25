@@ -414,18 +414,18 @@ body::after {
 .download-btn {
   display: inline-block;
   padding: 12px 20px;
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
-  color: white;
-  font-weight: bold;
+  background: linear-gradient(135deg, #4CAF50, #45A049);
+  color: #fff;
   text-decoration: none;
+  font-weight: 600;
   border-radius: 8px;
-  transition: background 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .download-btn:hover {
-  background: linear-gradient(135deg, #66BB6A, #388E3C);
   transform: scale(1.05);
+  background: linear-gradient(135deg, #45A049, #388E3C);
 }
 
 
