@@ -44,12 +44,22 @@
     📍 Ashabi Cole Street, Alausa, Ikeja, Lagos
   </a>
 </section>
-<form action="https://formspree.io/f/YOUR_ID" method="POST">
-  <input type="text" name="name" placeholder="Name" required />
-  <input type="email" name="email" placeholder="Email" required />
-  <textarea name="message" placeholder="Your message..." required></textarea>
-  <button type="submit">Send Message</button>
-</form>
+<section class="contact-form" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/{your-id}" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
 
 
 
