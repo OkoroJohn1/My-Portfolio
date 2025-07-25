@@ -304,3 +304,74 @@ body::after {
 .contact-form button:hover {
   opacity: 0.9;
 }
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  max-width: 700px;
+  margin: 40px auto;
+  color: #fff;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00ffff;
+  border-bottom: 2px solid #ff6ec4;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #e0ffff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ddd;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px #00ffff99;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 14px;
+  background: linear-gradient(135deg, #00ffff, #ff6ec4);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
