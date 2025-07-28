@@ -43,18 +43,19 @@
 </section>
 <section class="contact-form" data-aos="fade-up">
   <h2>Contact Me</h2>
-  <form action="https://formspree.io/f/YOUR_ID" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required />
+  <form action="https://formspree.io/f/mjkoween" method="POST">
+  <label for="email">Your email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required />
+  <label for="message">Your message:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
+  <!-- Optional: Redirect to a thank-you page after submit -->
+  <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
 
-    <button type="submit">Send Message</button>
-  </form>
+  <button type="submit">Send</button>
+</form>
+
 </section>
 
 
